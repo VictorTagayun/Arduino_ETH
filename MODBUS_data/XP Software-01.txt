@@ -1,0 +1,3959 @@
+No.     Time           Source                Destination           Protocol Length Info
+     88 16.963659      10.0.0.200            10.0.0.100            Modbus/TCP 107       Query: Trans:     1; Unit:   1, Func:  16: Write Multiple Registers
+
+Frame 88: 107 bytes on wire (856 bits), 107 bytes captured (856 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:48.663357000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642548.663357000 seconds
+    [Time delta from previous captured frame: 0.246353000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 16.963659000 seconds]
+    Frame Number: 88
+    Frame Length: 107 bytes (856 bits)
+    Capture Length: 107 bytes (856 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 93
+    Identification: 0xb26d (45677)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 1, Ack: 1, Len: 53
+Modbus/TCP
+    Transaction Identifier: 1
+    Protocol Identifier: 0
+    Length: 47
+    Unit Identifier: 1
+Modbus
+    .001 0000 = Function Code: Write Multiple Registers (16)
+    Reference Number: 56
+    Word Count: 20
+    Byte Count: 40
+    Register 56 (UINT16): 0
+    Register 57 (UINT16): 0
+    Register 58 (UINT16): 0
+    Register 59 (UINT16): 0
+    Register 60 (UINT16): 0
+    Register 61 (UINT16): 0
+    Register 62 (UINT16): 0
+    Register 63 (UINT16): 0
+    Register 64 (UINT16): 0
+    Register 65 (UINT16): 0
+    Register 66 (UINT16): 0
+    Register 67 (UINT16): 0
+    Register 68 (UINT16): 0
+    Register 69 (UINT16): 0
+    Register 70 (UINT16): 0
+    Register 71 (UINT16): 0
+    Register 72 (UINT16): 0
+    Register 73 (UINT16): 0
+    Register 74 (UINT16): 0
+    Register 75 (UINT16): 0
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 16.977012      10.0.0.100            10.0.0.200            Modbus/TCP 66     Response: Trans:     1; Unit:   1, Func:  16: Write Multiple Registers
+
+Frame 94: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:48.676710000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642548.676710000 seconds
+    [Time delta from previous captured frame: 0.001980000 seconds]
+    [Time delta from previous displayed frame: 0.013353000 seconds]
+    [Time since reference or first frame: 16.977012000 seconds]
+    Frame Number: 94
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xaaad (43693)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7aeb [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 1, Ack: 54, Len: 12
+Modbus/TCP
+    Transaction Identifier: 1
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .001 0000 = Function Code: Write Multiple Registers (16)
+    [Request Frame: 88]
+    [Time from request: 0.013353000 seconds]
+    Reference Number: 56
+    Word Count: 20
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 16.985552      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:     2; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 95: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:48.685250000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642548.685250000 seconds
+    [Time delta from previous captured frame: 0.008540000 seconds]
+    [Time delta from previous displayed frame: 0.008540000 seconds]
+    [Time since reference or first frame: 16.985552000 seconds]
+    Frame Number: 95
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb26e (45678)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 54, Ack: 13, Len: 12
+Modbus/TCP
+    Transaction Identifier: 2
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 23
+    Word Count: 33
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 17.106538      10.0.0.100            10.0.0.200            Modbus/TCP 129    Response: Trans:     2; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 97: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:48.806236000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642548.806236000 seconds
+    [Time delta from previous captured frame: 0.109530000 seconds]
+    [Time delta from previous displayed frame: 0.120986000 seconds]
+    [Time since reference or first frame: 17.106538000 seconds]
+    Frame Number: 97
+    Frame Length: 129 bytes (1032 bits)
+    Capture Length: 129 bytes (1032 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 115
+    Identification: 0xaaaf (43695)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7aaa [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 13, Ack: 66, Len: 75
+Modbus/TCP
+    Transaction Identifier: 2
+    Protocol Identifier: 0
+    Length: 69
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 95]
+    [Time from request: 0.120986000 seconds]
+    Byte Count: 66
+    Register 23 (UINT16): 10828
+    Register 24 (UINT16): 493
+    Register 25 (UINT16): 1070
+    Register 26 (UINT16): 0
+    Register 27 (UINT16): 1070
+    Register 28 (UINT16): 3
+    Register 29 (UINT16): 0
+    Register 30 (UINT16): 1073
+    Register 31 (UINT16): 3
+    Register 32 (UINT16): 0
+    Register 33 (UINT16): 1073
+    Register 34 (UINT16): 3
+    Register 35 (UINT16): 0
+    Register 36 (UINT16): 1072
+    Register 37 (UINT16): 3
+    Register 38 (UINT16): 0
+    Register 39 (UINT16): 1076
+    Register 40 (UINT16): 3
+    Register 41 (UINT16): 0
+    Register 42 (UINT16): 1071
+    Register 43 (UINT16): 3
+    Register 44 (UINT16): 0
+    Register 45 (UINT16): 1064
+    Register 46 (UINT16): 3
+    Register 47 (UINT16): 0
+    Register 48 (UINT16): 1072
+    Register 49 (UINT16): 3
+    Register 50 (UINT16): 0
+    Register 51 (UINT16): 1076
+    Register 52 (UINT16): 3
+    Register 53 (UINT16): 0
+    Register 54 (UINT16): 1069
+    Register 55 (UINT16): 3
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 17.117608      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:     3; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 98: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:48.817306000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642548.817306000 seconds
+    [Time delta from previous captured frame: 0.011070000 seconds]
+    [Time delta from previous displayed frame: 0.011070000 seconds]
+    [Time since reference or first frame: 17.117608000 seconds]
+    Frame Number: 98
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb26f (45679)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 66, Ack: 88, Len: 12
+Modbus/TCP
+    Transaction Identifier: 3
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 56
+    Word Count: 20
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 17.231089      10.0.0.100            10.0.0.200            Modbus/TCP 103    Response: Trans:     3; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 100: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:48.930787000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642548.930787000 seconds
+    [Time delta from previous captured frame: 0.102044000 seconds]
+    [Time delta from previous displayed frame: 0.113481000 seconds]
+    [Time since reference or first frame: 17.231089000 seconds]
+    Frame Number: 100
+    Frame Length: 103 bytes (824 bits)
+    Capture Length: 103 bytes (824 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 89
+    Identification: 0xaab1 (43697)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7ac2 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 88, Ack: 78, Len: 49
+Modbus/TCP
+    Transaction Identifier: 3
+    Protocol Identifier: 0
+    Length: 43
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 98]
+    [Time from request: 0.113481000 seconds]
+    Byte Count: 40
+    Register 56 (UINT16): 0
+    Register 57 (UINT16): 0
+    Register 58 (UINT16): 0
+    Register 59 (UINT16): 0
+    Register 60 (UINT16): 0
+    Register 61 (UINT16): 0
+    Register 62 (UINT16): 0
+    Register 63 (UINT16): 0
+    Register 64 (UINT16): 0
+    Register 65 (UINT16): 0
+    Register 66 (UINT16): 0
+    Register 67 (UINT16): 0
+    Register 68 (UINT16): 0
+    Register 69 (UINT16): 0
+    Register 70 (UINT16): 0
+    Register 71 (UINT16): 0
+    Register 72 (UINT16): 0
+    Register 73 (UINT16): 0
+    Register 74 (UINT16): 0
+    Register 75 (UINT16): 0
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 17.235941      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:     4; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 101: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:48.935639000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642548.935639000 seconds
+    [Time delta from previous captured frame: 0.004852000 seconds]
+    [Time delta from previous displayed frame: 0.004852000 seconds]
+    [Time since reference or first frame: 17.235941000 seconds]
+    Frame Number: 101
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb270 (45680)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 78, Ack: 137, Len: 12
+Modbus/TCP
+    Transaction Identifier: 4
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 0
+    Word Count: 13
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 17.354514      10.0.0.100            10.0.0.200            Modbus/TCP 89     Response: Trans:     4; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 103: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.054212000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.054212000 seconds
+    [Time delta from previous captured frame: 0.107489000 seconds]
+    [Time delta from previous displayed frame: 0.118573000 seconds]
+    [Time since reference or first frame: 17.354514000 seconds]
+    Frame Number: 103
+    Frame Length: 89 bytes (712 bits)
+    Capture Length: 89 bytes (712 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 75
+    Identification: 0xaab3 (43699)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7ace [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 137, Ack: 90, Len: 35
+Modbus/TCP
+    Transaction Identifier: 4
+    Protocol Identifier: 0
+    Length: 29
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 101]
+    [Time from request: 0.118573000 seconds]
+    Byte Count: 26
+    Register 0 (UINT16): 12601
+    Register 1 (UINT16): 13109
+    Register 2 (UINT16): 12337
+    Register 3 (UINT16): 13877
+    Register 4 (UINT16): 12592
+    Register 5 (UINT16): 12851
+    Register 6 (UINT16): 14132
+    Register 7 (UINT16): 12592
+    Register 8 (UINT16): 12851
+    Register 9 (UINT16): 14132
+    Register 10 (UINT16): 11568
+    Register 11 (UINT16): 13101
+    Register 12 (UINT16): 12336
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 17.356504      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:     5; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 104: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.056202000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.056202000 seconds
+    [Time delta from previous captured frame: 0.001990000 seconds]
+    [Time delta from previous displayed frame: 0.001990000 seconds]
+    [Time since reference or first frame: 17.356504000 seconds]
+    Frame Number: 104
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb271 (45681)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 90, Ack: 172, Len: 12
+Modbus/TCP
+    Transaction Identifier: 5
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 101
+    Word Count: 25
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 17.481799      10.0.0.100            10.0.0.200            Modbus/TCP 113    Response: Trans:     5; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 107: 113 bytes on wire (904 bits), 113 bytes captured (904 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.181497000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.181497000 seconds
+    [Time delta from previous captured frame: 0.011346000 seconds]
+    [Time delta from previous displayed frame: 0.125295000 seconds]
+    [Time since reference or first frame: 17.481799000 seconds]
+    Frame Number: 107
+    Frame Length: 113 bytes (904 bits)
+    Capture Length: 113 bytes (904 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 99
+    Identification: 0xaab5 (43701)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7ab4 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 172, Ack: 102, Len: 59
+Modbus/TCP
+    Transaction Identifier: 5
+    Protocol Identifier: 0
+    Length: 53
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 104]
+    [Time from request: 0.125295000 seconds]
+    Byte Count: 50
+    Register 101 (UINT16): 64136
+    Register 102 (UINT16): 1505
+    Register 103 (UINT16): 44843
+    Register 104 (UINT16): 44843
+    Register 105 (UINT16): 44843
+    Register 106 (UINT16): 44843
+    Register 107 (UINT16): 44843
+    Register 108 (UINT16): 44843
+    Register 109 (UINT16): 44843
+    Register 110 (UINT16): 44843
+    Register 111 (UINT16): 44843
+    Register 112 (UINT16): 44843
+    Register 113 (UINT16): 860
+    Register 114 (UINT16): 1300
+    Register 115 (UINT16): 13060
+    Register 116 (UINT16): 13060
+    Register 117 (UINT16): 13060
+    Register 118 (UINT16): 13060
+    Register 119 (UINT16): 13060
+    Register 120 (UINT16): 13060
+    Register 121 (UINT16): 13060
+    Register 122 (UINT16): 13060
+    Register 123 (UINT16): 13060
+    Register 124 (UINT16): 13060
+    Register 125 (UINT16): 256
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 17.482158      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:     6; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 108: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.181856000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.181856000 seconds
+    [Time delta from previous captured frame: 0.000359000 seconds]
+    [Time delta from previous displayed frame: 0.000359000 seconds]
+    [Time since reference or first frame: 17.482158000 seconds]
+    Frame Number: 108
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb272 (45682)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 102, Ack: 231, Len: 12
+Modbus/TCP
+    Transaction Identifier: 6
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 125
+    Word Count: 1
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 17.609847      10.0.0.100            10.0.0.200            Modbus/TCP 65     Response: Trans:     6; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 110: 65 bytes on wire (520 bits), 65 bytes captured (520 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.309545000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.309545000 seconds
+    [Time delta from previous captured frame: 0.116872000 seconds]
+    [Time delta from previous displayed frame: 0.127689000 seconds]
+    [Time since reference or first frame: 17.609847000 seconds]
+    Frame Number: 110
+    Frame Length: 65 bytes (520 bits)
+    Capture Length: 65 bytes (520 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 51
+    Identification: 0xaab7 (43703)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7ae2 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 231, Ack: 114, Len: 11
+Modbus/TCP
+    Transaction Identifier: 6
+    Protocol Identifier: 0
+    Length: 5
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 108]
+    [Time from request: 0.127689000 seconds]
+    Byte Count: 2
+    Register 125 (UINT16): 1
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 17.657294      10.0.0.200            10.0.0.100            Modbus/TCP 107       Query: Trans:     7; Unit:   1, Func:  16: Write Multiple Registers
+
+Frame 111: 107 bytes on wire (856 bits), 107 bytes captured (856 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.356992000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.356992000 seconds
+    [Time delta from previous captured frame: 0.047447000 seconds]
+    [Time delta from previous displayed frame: 0.047447000 seconds]
+    [Time since reference or first frame: 17.657294000 seconds]
+    Frame Number: 111
+    Frame Length: 107 bytes (856 bits)
+    Capture Length: 107 bytes (856 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 93
+    Identification: 0xb273 (45683)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 114, Ack: 242, Len: 53
+Modbus/TCP
+    Transaction Identifier: 7
+    Protocol Identifier: 0
+    Length: 47
+    Unit Identifier: 1
+Modbus
+    .001 0000 = Function Code: Write Multiple Registers (16)
+    Reference Number: 56
+    Word Count: 20
+    Byte Count: 40
+    Register 56 (UINT16): 0
+    Register 57 (UINT16): 0
+    Register 58 (UINT16): 0
+    Register 59 (UINT16): 0
+    Register 60 (UINT16): 0
+    Register 61 (UINT16): 0
+    Register 62 (UINT16): 0
+    Register 63 (UINT16): 0
+    Register 64 (UINT16): 0
+    Register 65 (UINT16): 0
+    Register 66 (UINT16): 0
+    Register 67 (UINT16): 0
+    Register 68 (UINT16): 0
+    Register 69 (UINT16): 0
+    Register 70 (UINT16): 0
+    Register 71 (UINT16): 0
+    Register 72 (UINT16): 0
+    Register 73 (UINT16): 0
+    Register 74 (UINT16): 0
+    Register 75 (UINT16): 0
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 17.855978      10.0.0.100            10.0.0.200            Modbus/TCP 66     Response: Trans:     7; Unit:   1, Func:  16: Write Multiple Registers
+
+Frame 113: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.555676000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.555676000 seconds
+    [Time delta from previous captured frame: 0.187947000 seconds]
+    [Time delta from previous displayed frame: 0.198684000 seconds]
+    [Time since reference or first frame: 17.855978000 seconds]
+    Frame Number: 113
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xaab9 (43705)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7adf [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 242, Ack: 167, Len: 12
+Modbus/TCP
+    Transaction Identifier: 7
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .001 0000 = Function Code: Write Multiple Registers (16)
+    [Request Frame: 111]
+    [Time from request: 0.198684000 seconds]
+    Reference Number: 56
+    Word Count: 20
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 17.856236      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:     8; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 114: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.555934000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.555934000 seconds
+    [Time delta from previous captured frame: 0.000258000 seconds]
+    [Time delta from previous displayed frame: 0.000258000 seconds]
+    [Time since reference or first frame: 17.856236000 seconds]
+    Frame Number: 114
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb274 (45684)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 167, Ack: 254, Len: 12
+Modbus/TCP
+    Transaction Identifier: 8
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 23
+    Word Count: 33
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 17.984466      10.0.0.100            10.0.0.200            Modbus/TCP 129    Response: Trans:     8; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 116: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.684164000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.684164000 seconds
+    [Time delta from previous captured frame: 0.117445000 seconds]
+    [Time delta from previous displayed frame: 0.128230000 seconds]
+    [Time since reference or first frame: 17.984466000 seconds]
+    Frame Number: 116
+    Frame Length: 129 bytes (1032 bits)
+    Capture Length: 129 bytes (1032 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 115
+    Identification: 0xaabb (43707)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7a9e [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 254, Ack: 179, Len: 75
+Modbus/TCP
+    Transaction Identifier: 8
+    Protocol Identifier: 0
+    Length: 69
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 114]
+    [Time from request: 0.128230000 seconds]
+    Byte Count: 66
+    Register 23 (UINT16): 10827
+    Register 24 (UINT16): 488
+    Register 25 (UINT16): 1071
+    Register 26 (UINT16): 0
+    Register 27 (UINT16): 1070
+    Register 28 (UINT16): 3
+    Register 29 (UINT16): 0
+    Register 30 (UINT16): 1073
+    Register 31 (UINT16): 3
+    Register 32 (UINT16): 0
+    Register 33 (UINT16): 1074
+    Register 34 (UINT16): 3
+    Register 35 (UINT16): 0
+    Register 36 (UINT16): 1073
+    Register 37 (UINT16): 3
+    Register 38 (UINT16): 0
+    Register 39 (UINT16): 1076
+    Register 40 (UINT16): 3
+    Register 41 (UINT16): 0
+    Register 42 (UINT16): 1071
+    Register 43 (UINT16): 3
+    Register 44 (UINT16): 0
+    Register 45 (UINT16): 1064
+    Register 46 (UINT16): 3
+    Register 47 (UINT16): 0
+    Register 48 (UINT16): 1072
+    Register 49 (UINT16): 3
+    Register 50 (UINT16): 0
+    Register 51 (UINT16): 1076
+    Register 52 (UINT16): 3
+    Register 53 (UINT16): 0
+    Register 54 (UINT16): 1069
+    Register 55 (UINT16): 3
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 17.986804      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:     9; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 117: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.686502000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.686502000 seconds
+    [Time delta from previous captured frame: 0.002338000 seconds]
+    [Time delta from previous displayed frame: 0.002338000 seconds]
+    [Time since reference or first frame: 17.986804000 seconds]
+    Frame Number: 117
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb275 (45685)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 179, Ack: 329, Len: 12
+Modbus/TCP
+    Transaction Identifier: 9
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 56
+    Word Count: 20
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 18.110010      10.0.0.100            10.0.0.200            Modbus/TCP 103    Response: Trans:     9; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 119: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.809708000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.809708000 seconds
+    [Time delta from previous captured frame: 0.111976000 seconds]
+    [Time delta from previous displayed frame: 0.123206000 seconds]
+    [Time since reference or first frame: 18.110010000 seconds]
+    Frame Number: 119
+    Frame Length: 103 bytes (824 bits)
+    Capture Length: 103 bytes (824 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 89
+    Identification: 0xaabd (43709)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7ab6 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 329, Ack: 191, Len: 49
+Modbus/TCP
+    Transaction Identifier: 9
+    Protocol Identifier: 0
+    Length: 43
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 117]
+    [Time from request: 0.123206000 seconds]
+    Byte Count: 40
+    Register 56 (UINT16): 0
+    Register 57 (UINT16): 0
+    Register 58 (UINT16): 0
+    Register 59 (UINT16): 0
+    Register 60 (UINT16): 0
+    Register 61 (UINT16): 0
+    Register 62 (UINT16): 0
+    Register 63 (UINT16): 0
+    Register 64 (UINT16): 0
+    Register 65 (UINT16): 0
+    Register 66 (UINT16): 0
+    Register 67 (UINT16): 0
+    Register 68 (UINT16): 0
+    Register 69 (UINT16): 0
+    Register 70 (UINT16): 0
+    Register 71 (UINT16): 0
+    Register 72 (UINT16): 0
+    Register 73 (UINT16): 0
+    Register 74 (UINT16): 0
+    Register 75 (UINT16): 0
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 18.112351      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    10; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 120: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.812049000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.812049000 seconds
+    [Time delta from previous captured frame: 0.002341000 seconds]
+    [Time delta from previous displayed frame: 0.002341000 seconds]
+    [Time since reference or first frame: 18.112351000 seconds]
+    Frame Number: 120
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb276 (45686)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 191, Ack: 378, Len: 12
+Modbus/TCP
+    Transaction Identifier: 10
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 0
+    Word Count: 13
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 18.234456      10.0.0.100            10.0.0.200            Modbus/TCP 89     Response: Trans:    10; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 131: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.934154000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.934154000 seconds
+    [Time delta from previous captured frame: 0.075437000 seconds]
+    [Time delta from previous displayed frame: 0.122105000 seconds]
+    [Time since reference or first frame: 18.234456000 seconds]
+    Frame Number: 131
+    Frame Length: 89 bytes (712 bits)
+    Capture Length: 89 bytes (712 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 75
+    Identification: 0xaabf (43711)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7ac2 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 378, Ack: 203, Len: 35
+Modbus/TCP
+    Transaction Identifier: 10
+    Protocol Identifier: 0
+    Length: 29
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 120]
+    [Time from request: 0.122105000 seconds]
+    Byte Count: 26
+    Register 0 (UINT16): 12601
+    Register 1 (UINT16): 13109
+    Register 2 (UINT16): 12337
+    Register 3 (UINT16): 13877
+    Register 4 (UINT16): 12592
+    Register 5 (UINT16): 12851
+    Register 6 (UINT16): 14132
+    Register 7 (UINT16): 12592
+    Register 8 (UINT16): 12851
+    Register 9 (UINT16): 14132
+    Register 10 (UINT16): 11568
+    Register 11 (UINT16): 13101
+    Register 12 (UINT16): 12336
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 18.234807      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    11; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 132: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:49.934505000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642549.934505000 seconds
+    [Time delta from previous captured frame: 0.000351000 seconds]
+    [Time delta from previous displayed frame: 0.000351000 seconds]
+    [Time since reference or first frame: 18.234807000 seconds]
+    Frame Number: 132
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb277 (45687)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 203, Ack: 413, Len: 12
+Modbus/TCP
+    Transaction Identifier: 11
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 101
+    Word Count: 25
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    134 18.362708      10.0.0.100            10.0.0.200            Modbus/TCP 113    Response: Trans:    11; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 134: 113 bytes on wire (904 bits), 113 bytes captured (904 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.062406000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.062406000 seconds
+    [Time delta from previous captured frame: 0.116712000 seconds]
+    [Time delta from previous displayed frame: 0.127901000 seconds]
+    [Time since reference or first frame: 18.362708000 seconds]
+    Frame Number: 134
+    Frame Length: 113 bytes (904 bits)
+    Capture Length: 113 bytes (904 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 99
+    Identification: 0xaac1 (43713)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7aa8 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 413, Ack: 215, Len: 59
+Modbus/TCP
+    Transaction Identifier: 11
+    Protocol Identifier: 0
+    Length: 53
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 132]
+    [Time from request: 0.127901000 seconds]
+    Byte Count: 50
+    Register 101 (UINT16): 64136
+    Register 102 (UINT16): 1505
+    Register 103 (UINT16): 44843
+    Register 104 (UINT16): 44843
+    Register 105 (UINT16): 44843
+    Register 106 (UINT16): 44843
+    Register 107 (UINT16): 44843
+    Register 108 (UINT16): 44843
+    Register 109 (UINT16): 44843
+    Register 110 (UINT16): 44843
+    Register 111 (UINT16): 44843
+    Register 112 (UINT16): 44843
+    Register 113 (UINT16): 860
+    Register 114 (UINT16): 1300
+    Register 115 (UINT16): 13060
+    Register 116 (UINT16): 13060
+    Register 117 (UINT16): 13060
+    Register 118 (UINT16): 13060
+    Register 119 (UINT16): 13060
+    Register 120 (UINT16): 13060
+    Register 121 (UINT16): 13060
+    Register 122 (UINT16): 13060
+    Register 123 (UINT16): 13060
+    Register 124 (UINT16): 13060
+    Register 125 (UINT16): 256
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    135 18.362984      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    12; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 135: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.062682000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.062682000 seconds
+    [Time delta from previous captured frame: 0.000276000 seconds]
+    [Time delta from previous displayed frame: 0.000276000 seconds]
+    [Time since reference or first frame: 18.362984000 seconds]
+    Frame Number: 135
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb278 (45688)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 215, Ack: 472, Len: 12
+Modbus/TCP
+    Transaction Identifier: 12
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 125
+    Word Count: 1
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 18.489723      10.0.0.100            10.0.0.200            Modbus/TCP 65     Response: Trans:    12; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 146: 65 bytes on wire (520 bits), 65 bytes captured (520 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.189421000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.189421000 seconds
+    [Time delta from previous captured frame: 0.076295000 seconds]
+    [Time delta from previous displayed frame: 0.126739000 seconds]
+    [Time since reference or first frame: 18.489723000 seconds]
+    Frame Number: 146
+    Frame Length: 65 bytes (520 bits)
+    Capture Length: 65 bytes (520 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 51
+    Identification: 0xaac3 (43715)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7ad6 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 472, Ack: 227, Len: 11
+Modbus/TCP
+    Transaction Identifier: 12
+    Protocol Identifier: 0
+    Length: 5
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 135]
+    [Time from request: 0.126739000 seconds]
+    Byte Count: 2
+    Register 125 (UINT16): 1
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    147 18.522540      10.0.0.200            10.0.0.100            Modbus/TCP 107       Query: Trans:    13; Unit:   1, Func:  16: Write Multiple Registers
+
+Frame 147: 107 bytes on wire (856 bits), 107 bytes captured (856 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.222238000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.222238000 seconds
+    [Time delta from previous captured frame: 0.032817000 seconds]
+    [Time delta from previous displayed frame: 0.032817000 seconds]
+    [Time since reference or first frame: 18.522540000 seconds]
+    Frame Number: 147
+    Frame Length: 107 bytes (856 bits)
+    Capture Length: 107 bytes (856 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 93
+    Identification: 0xb279 (45689)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 227, Ack: 483, Len: 53
+Modbus/TCP
+    Transaction Identifier: 13
+    Protocol Identifier: 0
+    Length: 47
+    Unit Identifier: 1
+Modbus
+    .001 0000 = Function Code: Write Multiple Registers (16)
+    Reference Number: 56
+    Word Count: 20
+    Byte Count: 40
+    Register 56 (UINT16): 0
+    Register 57 (UINT16): 0
+    Register 58 (UINT16): 0
+    Register 59 (UINT16): 0
+    Register 60 (UINT16): 0
+    Register 61 (UINT16): 0
+    Register 62 (UINT16): 0
+    Register 63 (UINT16): 0
+    Register 64 (UINT16): 0
+    Register 65 (UINT16): 0
+    Register 66 (UINT16): 0
+    Register 67 (UINT16): 0
+    Register 68 (UINT16): 0
+    Register 69 (UINT16): 0
+    Register 70 (UINT16): 0
+    Register 71 (UINT16): 0
+    Register 72 (UINT16): 0
+    Register 73 (UINT16): 0
+    Register 74 (UINT16): 0
+    Register 75 (UINT16): 0
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    153 18.735979      10.0.0.100            10.0.0.200            Modbus/TCP 66     Response: Trans:    13; Unit:   1, Func:  16: Write Multiple Registers
+
+Frame 153: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.435677000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.435677000 seconds
+    [Time delta from previous captured frame: 0.164236000 seconds]
+    [Time delta from previous displayed frame: 0.213439000 seconds]
+    [Time since reference or first frame: 18.735979000 seconds]
+    Frame Number: 153
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xaac5 (43717)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7ad3 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 483, Ack: 280, Len: 12
+Modbus/TCP
+    Transaction Identifier: 13
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .001 0000 = Function Code: Write Multiple Registers (16)
+    [Request Frame: 147]
+    [Time from request: 0.213439000 seconds]
+    Reference Number: 56
+    Word Count: 20
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    154 18.736251      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    14; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 154: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.435949000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.435949000 seconds
+    [Time delta from previous captured frame: 0.000272000 seconds]
+    [Time delta from previous displayed frame: 0.000272000 seconds]
+    [Time since reference or first frame: 18.736251000 seconds]
+    Frame Number: 154
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb27a (45690)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 280, Ack: 495, Len: 12
+Modbus/TCP
+    Transaction Identifier: 14
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 23
+    Word Count: 33
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    160 18.865393      10.0.0.100            10.0.0.200            Modbus/TCP 129    Response: Trans:    14; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 160: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.565091000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.565091000 seconds
+    [Time delta from previous captured frame: 0.028659000 seconds]
+    [Time delta from previous displayed frame: 0.129142000 seconds]
+    [Time since reference or first frame: 18.865393000 seconds]
+    Frame Number: 160
+    Frame Length: 129 bytes (1032 bits)
+    Capture Length: 129 bytes (1032 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 115
+    Identification: 0xaac7 (43719)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7a92 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 495, Ack: 292, Len: 75
+Modbus/TCP
+    Transaction Identifier: 14
+    Protocol Identifier: 0
+    Length: 69
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 154]
+    [Time from request: 0.129142000 seconds]
+    Byte Count: 66
+    Register 23 (UINT16): 10828
+    Register 24 (UINT16): 485
+    Register 25 (UINT16): 1090
+    Register 26 (UINT16): 0
+    Register 27 (UINT16): 1070
+    Register 28 (UINT16): 3
+    Register 29 (UINT16): 0
+    Register 30 (UINT16): 1073
+    Register 31 (UINT16): 3
+    Register 32 (UINT16): 0
+    Register 33 (UINT16): 1074
+    Register 34 (UINT16): 3
+    Register 35 (UINT16): 0
+    Register 36 (UINT16): 1073
+    Register 37 (UINT16): 3
+    Register 38 (UINT16): 0
+    Register 39 (UINT16): 1076
+    Register 40 (UINT16): 3
+    Register 41 (UINT16): 0
+    Register 42 (UINT16): 1071
+    Register 43 (UINT16): 3
+    Register 44 (UINT16): 0
+    Register 45 (UINT16): 1064
+    Register 46 (UINT16): 3
+    Register 47 (UINT16): 0
+    Register 48 (UINT16): 1072
+    Register 49 (UINT16): 3
+    Register 50 (UINT16): 0
+    Register 51 (UINT16): 1076
+    Register 52 (UINT16): 3
+    Register 53 (UINT16): 0
+    Register 54 (UINT16): 1069
+    Register 55 (UINT16): 3
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    161 18.867327      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    15; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 161: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.567025000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.567025000 seconds
+    [Time delta from previous captured frame: 0.001934000 seconds]
+    [Time delta from previous displayed frame: 0.001934000 seconds]
+    [Time since reference or first frame: 18.867327000 seconds]
+    Frame Number: 161
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb27b (45691)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 292, Ack: 570, Len: 12
+Modbus/TCP
+    Transaction Identifier: 15
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 56
+    Word Count: 20
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    164 18.990013      10.0.0.100            10.0.0.200            Modbus/TCP 103    Response: Trans:    15; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 164: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.689711000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.689711000 seconds
+    [Time delta from previous captured frame: 0.075835000 seconds]
+    [Time delta from previous displayed frame: 0.122686000 seconds]
+    [Time since reference or first frame: 18.990013000 seconds]
+    Frame Number: 164
+    Frame Length: 103 bytes (824 bits)
+    Capture Length: 103 bytes (824 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 89
+    Identification: 0xaac9 (43721)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7aaa [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 570, Ack: 304, Len: 49
+Modbus/TCP
+    Transaction Identifier: 15
+    Protocol Identifier: 0
+    Length: 43
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 161]
+    [Time from request: 0.122686000 seconds]
+    Byte Count: 40
+    Register 56 (UINT16): 0
+    Register 57 (UINT16): 0
+    Register 58 (UINT16): 0
+    Register 59 (UINT16): 0
+    Register 60 (UINT16): 0
+    Register 61 (UINT16): 0
+    Register 62 (UINT16): 0
+    Register 63 (UINT16): 0
+    Register 64 (UINT16): 0
+    Register 65 (UINT16): 0
+    Register 66 (UINT16): 0
+    Register 67 (UINT16): 0
+    Register 68 (UINT16): 0
+    Register 69 (UINT16): 0
+    Register 70 (UINT16): 0
+    Register 71 (UINT16): 0
+    Register 72 (UINT16): 0
+    Register 73 (UINT16): 0
+    Register 74 (UINT16): 0
+    Register 75 (UINT16): 0
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    165 18.992454      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    16; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 165: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.692152000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.692152000 seconds
+    [Time delta from previous captured frame: 0.002441000 seconds]
+    [Time delta from previous displayed frame: 0.002441000 seconds]
+    [Time since reference or first frame: 18.992454000 seconds]
+    Frame Number: 165
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb27c (45692)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 304, Ack: 619, Len: 12
+Modbus/TCP
+    Transaction Identifier: 16
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 0
+    Word Count: 13
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    167 19.114367      10.0.0.100            10.0.0.200            Modbus/TCP 89     Response: Trans:    16; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 167: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.814065000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.814065000 seconds
+    [Time delta from previous captured frame: 0.111377000 seconds]
+    [Time delta from previous displayed frame: 0.121913000 seconds]
+    [Time since reference or first frame: 19.114367000 seconds]
+    Frame Number: 167
+    Frame Length: 89 bytes (712 bits)
+    Capture Length: 89 bytes (712 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 75
+    Identification: 0xaacb (43723)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7ab6 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 619, Ack: 316, Len: 35
+Modbus/TCP
+    Transaction Identifier: 16
+    Protocol Identifier: 0
+    Length: 29
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 165]
+    [Time from request: 0.121913000 seconds]
+    Byte Count: 26
+    Register 0 (UINT16): 12601
+    Register 1 (UINT16): 13109
+    Register 2 (UINT16): 12337
+    Register 3 (UINT16): 13877
+    Register 4 (UINT16): 12592
+    Register 5 (UINT16): 12851
+    Register 6 (UINT16): 14132
+    Register 7 (UINT16): 12592
+    Register 8 (UINT16): 12851
+    Register 9 (UINT16): 14132
+    Register 10 (UINT16): 11568
+    Register 11 (UINT16): 13101
+    Register 12 (UINT16): 12336
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    168 19.114718      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    17; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 168: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.814416000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.814416000 seconds
+    [Time delta from previous captured frame: 0.000351000 seconds]
+    [Time delta from previous displayed frame: 0.000351000 seconds]
+    [Time since reference or first frame: 19.114718000 seconds]
+    Frame Number: 168
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb27d (45693)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 316, Ack: 654, Len: 12
+Modbus/TCP
+    Transaction Identifier: 17
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 101
+    Word Count: 25
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    175 19.240737      10.0.0.100            10.0.0.200            Modbus/TCP 113    Response: Trans:    17; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 175: 113 bytes on wire (904 bits), 113 bytes captured (904 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.940435000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.940435000 seconds
+    [Time delta from previous captured frame: 0.074178000 seconds]
+    [Time delta from previous displayed frame: 0.126019000 seconds]
+    [Time since reference or first frame: 19.240737000 seconds]
+    Frame Number: 175
+    Frame Length: 113 bytes (904 bits)
+    Capture Length: 113 bytes (904 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 99
+    Identification: 0xaacd (43725)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7a9c [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 654, Ack: 328, Len: 59
+Modbus/TCP
+    Transaction Identifier: 17
+    Protocol Identifier: 0
+    Length: 53
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 168]
+    [Time from request: 0.126019000 seconds]
+    Byte Count: 50
+    Register 101 (UINT16): 64136
+    Register 102 (UINT16): 1505
+    Register 103 (UINT16): 44843
+    Register 104 (UINT16): 44843
+    Register 105 (UINT16): 44843
+    Register 106 (UINT16): 44843
+    Register 107 (UINT16): 44843
+    Register 108 (UINT16): 44843
+    Register 109 (UINT16): 44843
+    Register 110 (UINT16): 44843
+    Register 111 (UINT16): 44843
+    Register 112 (UINT16): 44843
+    Register 113 (UINT16): 860
+    Register 114 (UINT16): 1300
+    Register 115 (UINT16): 13060
+    Register 116 (UINT16): 13060
+    Register 117 (UINT16): 13060
+    Register 118 (UINT16): 13060
+    Register 119 (UINT16): 13060
+    Register 120 (UINT16): 13060
+    Register 121 (UINT16): 13060
+    Register 122 (UINT16): 13060
+    Register 123 (UINT16): 13060
+    Register 124 (UINT16): 13060
+    Register 125 (UINT16): 256
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    176 19.241017      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    18; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 176: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:50.940715000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642550.940715000 seconds
+    [Time delta from previous captured frame: 0.000280000 seconds]
+    [Time delta from previous displayed frame: 0.000280000 seconds]
+    [Time since reference or first frame: 19.241017000 seconds]
+    Frame Number: 176
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb27e (45694)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 328, Ack: 713, Len: 12
+Modbus/TCP
+    Transaction Identifier: 18
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 125
+    Word Count: 1
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    178 19.367659      10.0.0.100            10.0.0.200            Modbus/TCP 65     Response: Trans:    18; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 178: 65 bytes on wire (520 bits), 65 bytes captured (520 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.067357000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.067357000 seconds
+    [Time delta from previous captured frame: 0.115696000 seconds]
+    [Time delta from previous displayed frame: 0.126642000 seconds]
+    [Time since reference or first frame: 19.367659000 seconds]
+    Frame Number: 178
+    Frame Length: 65 bytes (520 bits)
+    Capture Length: 65 bytes (520 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 51
+    Identification: 0xaacf (43727)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7aca [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 713, Ack: 340, Len: 11
+Modbus/TCP
+    Transaction Identifier: 18
+    Protocol Identifier: 0
+    Length: 5
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 176]
+    [Time from request: 0.126642000 seconds]
+    Byte Count: 2
+    Register 125 (UINT16): 1
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    179 19.403930      10.0.0.200            10.0.0.100            Modbus/TCP 107       Query: Trans:    19; Unit:   1, Func:  16: Write Multiple Registers
+
+Frame 179: 107 bytes on wire (856 bits), 107 bytes captured (856 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.103628000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.103628000 seconds
+    [Time delta from previous captured frame: 0.036271000 seconds]
+    [Time delta from previous displayed frame: 0.036271000 seconds]
+    [Time since reference or first frame: 19.403930000 seconds]
+    Frame Number: 179
+    Frame Length: 107 bytes (856 bits)
+    Capture Length: 107 bytes (856 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 93
+    Identification: 0xb27f (45695)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 340, Ack: 724, Len: 53
+Modbus/TCP
+    Transaction Identifier: 19
+    Protocol Identifier: 0
+    Length: 47
+    Unit Identifier: 1
+Modbus
+    .001 0000 = Function Code: Write Multiple Registers (16)
+    Reference Number: 56
+    Word Count: 20
+    Byte Count: 40
+    Register 56 (UINT16): 0
+    Register 57 (UINT16): 0
+    Register 58 (UINT16): 0
+    Register 59 (UINT16): 0
+    Register 60 (UINT16): 0
+    Register 61 (UINT16): 0
+    Register 62 (UINT16): 0
+    Register 63 (UINT16): 0
+    Register 64 (UINT16): 0
+    Register 65 (UINT16): 0
+    Register 66 (UINT16): 0
+    Register 67 (UINT16): 0
+    Register 68 (UINT16): 0
+    Register 69 (UINT16): 0
+    Register 70 (UINT16): 0
+    Register 71 (UINT16): 0
+    Register 72 (UINT16): 0
+    Register 73 (UINT16): 0
+    Register 74 (UINT16): 0
+    Register 75 (UINT16): 0
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    185 19.613967      10.0.0.100            10.0.0.200            Modbus/TCP 66     Response: Trans:    19; Unit:   1, Func:  16: Write Multiple Registers
+
+Frame 185: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.313665000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.313665000 seconds
+    [Time delta from previous captured frame: 0.198032000 seconds]
+    [Time delta from previous displayed frame: 0.210037000 seconds]
+    [Time since reference or first frame: 19.613967000 seconds]
+    Frame Number: 185
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xaad1 (43729)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7ac7 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 724, Ack: 393, Len: 12
+Modbus/TCP
+    Transaction Identifier: 19
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .001 0000 = Function Code: Write Multiple Registers (16)
+    [Request Frame: 179]
+    [Time from request: 0.210037000 seconds]
+    Reference Number: 56
+    Word Count: 20
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    186 19.614275      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    20; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 186: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.313973000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.313973000 seconds
+    [Time delta from previous captured frame: 0.000308000 seconds]
+    [Time delta from previous displayed frame: 0.000308000 seconds]
+    [Time since reference or first frame: 19.614275000 seconds]
+    Frame Number: 186
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb280 (45696)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 393, Ack: 736, Len: 12
+Modbus/TCP
+    Transaction Identifier: 20
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 23
+    Word Count: 33
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    189 19.742181      10.0.0.100            10.0.0.200            Modbus/TCP 129    Response: Trans:    20; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 189: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.441879000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.441879000 seconds
+    [Time delta from previous captured frame: 0.075590000 seconds]
+    [Time delta from previous displayed frame: 0.127906000 seconds]
+    [Time since reference or first frame: 19.742181000 seconds]
+    Frame Number: 189
+    Frame Length: 129 bytes (1032 bits)
+    Capture Length: 129 bytes (1032 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 115
+    Identification: 0xaad3 (43731)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7a86 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 736, Ack: 405, Len: 75
+Modbus/TCP
+    Transaction Identifier: 20
+    Protocol Identifier: 0
+    Length: 69
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 186]
+    [Time from request: 0.127906000 seconds]
+    Byte Count: 66
+    Register 23 (UINT16): 10829
+    Register 24 (UINT16): 493
+    Register 25 (UINT16): 1096
+    Register 26 (UINT16): 0
+    Register 27 (UINT16): 1070
+    Register 28 (UINT16): 3
+    Register 29 (UINT16): 0
+    Register 30 (UINT16): 1072
+    Register 31 (UINT16): 3
+    Register 32 (UINT16): 0
+    Register 33 (UINT16): 1074
+    Register 34 (UINT16): 3
+    Register 35 (UINT16): 0
+    Register 36 (UINT16): 1073
+    Register 37 (UINT16): 3
+    Register 38 (UINT16): 0
+    Register 39 (UINT16): 1076
+    Register 40 (UINT16): 3
+    Register 41 (UINT16): 0
+    Register 42 (UINT16): 1072
+    Register 43 (UINT16): 3
+    Register 44 (UINT16): 0
+    Register 45 (UINT16): 1065
+    Register 46 (UINT16): 3
+    Register 47 (UINT16): 0
+    Register 48 (UINT16): 1072
+    Register 49 (UINT16): 3
+    Register 50 (UINT16): 0
+    Register 51 (UINT16): 1076
+    Register 52 (UINT16): 3
+    Register 53 (UINT16): 0
+    Register 54 (UINT16): 1069
+    Register 55 (UINT16): 3
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    190 19.744822      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    21; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 190: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.444520000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.444520000 seconds
+    [Time delta from previous captured frame: 0.002641000 seconds]
+    [Time delta from previous displayed frame: 0.002641000 seconds]
+    [Time since reference or first frame: 19.744822000 seconds]
+    Frame Number: 190
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb281 (45697)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 405, Ack: 811, Len: 12
+Modbus/TCP
+    Transaction Identifier: 21
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 56
+    Word Count: 20
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    193 19.867708      10.0.0.100            10.0.0.200            Modbus/TCP 103    Response: Trans:    21; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 193: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.567406000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.567406000 seconds
+    [Time delta from previous captured frame: 0.064224000 seconds]
+    [Time delta from previous displayed frame: 0.122886000 seconds]
+    [Time since reference or first frame: 19.867708000 seconds]
+    Frame Number: 193
+    Frame Length: 103 bytes (824 bits)
+    Capture Length: 103 bytes (824 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 89
+    Identification: 0xaad5 (43733)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7a9e [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 811, Ack: 417, Len: 49
+Modbus/TCP
+    Transaction Identifier: 21
+    Protocol Identifier: 0
+    Length: 43
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 190]
+    [Time from request: 0.122886000 seconds]
+    Byte Count: 40
+    Register 56 (UINT16): 0
+    Register 57 (UINT16): 0
+    Register 58 (UINT16): 0
+    Register 59 (UINT16): 0
+    Register 60 (UINT16): 0
+    Register 61 (UINT16): 0
+    Register 62 (UINT16): 0
+    Register 63 (UINT16): 0
+    Register 64 (UINT16): 0
+    Register 65 (UINT16): 0
+    Register 66 (UINT16): 0
+    Register 67 (UINT16): 0
+    Register 68 (UINT16): 0
+    Register 69 (UINT16): 0
+    Register 70 (UINT16): 0
+    Register 71 (UINT16): 0
+    Register 72 (UINT16): 0
+    Register 73 (UINT16): 0
+    Register 74 (UINT16): 0
+    Register 75 (UINT16): 0
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    194 19.870087      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    22; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 194: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.569785000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.569785000 seconds
+    [Time delta from previous captured frame: 0.002379000 seconds]
+    [Time delta from previous displayed frame: 0.002379000 seconds]
+    [Time since reference or first frame: 19.870087000 seconds]
+    Frame Number: 194
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb282 (45698)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 417, Ack: 860, Len: 12
+Modbus/TCP
+    Transaction Identifier: 22
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 0
+    Word Count: 13
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    197 19.992190      10.0.0.100            10.0.0.200            Modbus/TCP 89     Response: Trans:    22; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 197: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.691888000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.691888000 seconds
+    [Time delta from previous captured frame: 0.075474000 seconds]
+    [Time delta from previous displayed frame: 0.122103000 seconds]
+    [Time since reference or first frame: 19.992190000 seconds]
+    Frame Number: 197
+    Frame Length: 89 bytes (712 bits)
+    Capture Length: 89 bytes (712 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 75
+    Identification: 0xaad7 (43735)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7aaa [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 860, Ack: 429, Len: 35
+Modbus/TCP
+    Transaction Identifier: 22
+    Protocol Identifier: 0
+    Length: 29
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 194]
+    [Time from request: 0.122103000 seconds]
+    Byte Count: 26
+    Register 0 (UINT16): 12601
+    Register 1 (UINT16): 13109
+    Register 2 (UINT16): 12337
+    Register 3 (UINT16): 13877
+    Register 4 (UINT16): 12592
+    Register 5 (UINT16): 12851
+    Register 6 (UINT16): 14132
+    Register 7 (UINT16): 12592
+    Register 8 (UINT16): 12851
+    Register 9 (UINT16): 14132
+    Register 10 (UINT16): 11568
+    Register 11 (UINT16): 13101
+    Register 12 (UINT16): 12336
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    198 19.992469      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    23; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 198: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.692167000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.692167000 seconds
+    [Time delta from previous captured frame: 0.000279000 seconds]
+    [Time delta from previous displayed frame: 0.000279000 seconds]
+    [Time since reference or first frame: 19.992469000 seconds]
+    Frame Number: 198
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb283 (45699)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 429, Ack: 895, Len: 12
+Modbus/TCP
+    Transaction Identifier: 23
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 101
+    Word Count: 25
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    200 20.119614      10.0.0.100            10.0.0.200            Modbus/TCP 113    Response: Trans:    23; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 200: 113 bytes on wire (904 bits), 113 bytes captured (904 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.819312000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.819312000 seconds
+    [Time delta from previous captured frame: 0.116591000 seconds]
+    [Time delta from previous displayed frame: 0.127145000 seconds]
+    [Time since reference or first frame: 20.119614000 seconds]
+    Frame Number: 200
+    Frame Length: 113 bytes (904 bits)
+    Capture Length: 113 bytes (904 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 99
+    Identification: 0xaad9 (43737)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7a90 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 895, Ack: 441, Len: 59
+Modbus/TCP
+    Transaction Identifier: 23
+    Protocol Identifier: 0
+    Length: 53
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 198]
+    [Time from request: 0.127145000 seconds]
+    Byte Count: 50
+    Register 101 (UINT16): 64136
+    Register 102 (UINT16): 1505
+    Register 103 (UINT16): 44843
+    Register 104 (UINT16): 44843
+    Register 105 (UINT16): 44843
+    Register 106 (UINT16): 44843
+    Register 107 (UINT16): 44843
+    Register 108 (UINT16): 44843
+    Register 109 (UINT16): 44843
+    Register 110 (UINT16): 44843
+    Register 111 (UINT16): 44843
+    Register 112 (UINT16): 44843
+    Register 113 (UINT16): 860
+    Register 114 (UINT16): 1300
+    Register 115 (UINT16): 13060
+    Register 116 (UINT16): 13060
+    Register 117 (UINT16): 13060
+    Register 118 (UINT16): 13060
+    Register 119 (UINT16): 13060
+    Register 120 (UINT16): 13060
+    Register 121 (UINT16): 13060
+    Register 122 (UINT16): 13060
+    Register 123 (UINT16): 13060
+    Register 124 (UINT16): 13060
+    Register 125 (UINT16): 256
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    201 20.119918      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    24; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 201: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.819616000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.819616000 seconds
+    [Time delta from previous captured frame: 0.000304000 seconds]
+    [Time delta from previous displayed frame: 0.000304000 seconds]
+    [Time since reference or first frame: 20.119918000 seconds]
+    Frame Number: 201
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb284 (45700)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 441, Ack: 954, Len: 12
+Modbus/TCP
+    Transaction Identifier: 24
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 125
+    Word Count: 1
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    203 20.248558      10.0.0.100            10.0.0.200            Modbus/TCP 65     Response: Trans:    24; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 203: 65 bytes on wire (520 bits), 65 bytes captured (520 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.948256000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.948256000 seconds
+    [Time delta from previous captured frame: 0.117565000 seconds]
+    [Time delta from previous displayed frame: 0.128640000 seconds]
+    [Time since reference or first frame: 20.248558000 seconds]
+    Frame Number: 203
+    Frame Length: 65 bytes (520 bits)
+    Capture Length: 65 bytes (520 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 51
+    Identification: 0xaadb (43739)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7abe [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 954, Ack: 453, Len: 11
+Modbus/TCP
+    Transaction Identifier: 24
+    Protocol Identifier: 0
+    Length: 5
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 201]
+    [Time from request: 0.128640000 seconds]
+    Byte Count: 2
+    Register 125 (UINT16): 1
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    204 20.282536      10.0.0.200            10.0.0.100            Modbus/TCP 107       Query: Trans:    25; Unit:   1, Func:  16: Write Multiple Registers
+
+Frame 204: 107 bytes on wire (856 bits), 107 bytes captured (856 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:51.982234000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642551.982234000 seconds
+    [Time delta from previous captured frame: 0.033978000 seconds]
+    [Time delta from previous displayed frame: 0.033978000 seconds]
+    [Time since reference or first frame: 20.282536000 seconds]
+    Frame Number: 204
+    Frame Length: 107 bytes (856 bits)
+    Capture Length: 107 bytes (856 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 93
+    Identification: 0xb285 (45701)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 453, Ack: 965, Len: 53
+Modbus/TCP
+    Transaction Identifier: 25
+    Protocol Identifier: 0
+    Length: 47
+    Unit Identifier: 1
+Modbus
+    .001 0000 = Function Code: Write Multiple Registers (16)
+    Reference Number: 56
+    Word Count: 20
+    Byte Count: 40
+    Register 56 (UINT16): 0
+    Register 57 (UINT16): 0
+    Register 58 (UINT16): 0
+    Register 59 (UINT16): 0
+    Register 60 (UINT16): 0
+    Register 61 (UINT16): 0
+    Register 62 (UINT16): 0
+    Register 63 (UINT16): 0
+    Register 64 (UINT16): 0
+    Register 65 (UINT16): 0
+    Register 66 (UINT16): 0
+    Register 67 (UINT16): 0
+    Register 68 (UINT16): 0
+    Register 69 (UINT16): 0
+    Register 70 (UINT16): 0
+    Register 71 (UINT16): 0
+    Register 72 (UINT16): 0
+    Register 73 (UINT16): 0
+    Register 74 (UINT16): 0
+    Register 75 (UINT16): 0
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    206 20.496778      10.0.0.100            10.0.0.200            Modbus/TCP 66     Response: Trans:    25; Unit:   1, Func:  16: Write Multiple Registers
+
+Frame 206: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:52.196476000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642552.196476000 seconds
+    [Time delta from previous captured frame: 0.202793000 seconds]
+    [Time delta from previous displayed frame: 0.214242000 seconds]
+    [Time since reference or first frame: 20.496778000 seconds]
+    Frame Number: 206
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xaadd (43741)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7abb [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 965, Ack: 506, Len: 12
+Modbus/TCP
+    Transaction Identifier: 25
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .001 0000 = Function Code: Write Multiple Registers (16)
+    [Request Frame: 204]
+    [Time from request: 0.214242000 seconds]
+    Reference Number: 56
+    Word Count: 20
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    207 20.497082      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    26; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 207: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:52.196780000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642552.196780000 seconds
+    [Time delta from previous captured frame: 0.000304000 seconds]
+    [Time delta from previous displayed frame: 0.000304000 seconds]
+    [Time since reference or first frame: 20.497082000 seconds]
+    Frame Number: 207
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb286 (45702)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 506, Ack: 977, Len: 12
+Modbus/TCP
+    Transaction Identifier: 26
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 23
+    Word Count: 33
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    209 20.628130      10.0.0.100            10.0.0.200            Modbus/TCP 129    Response: Trans:    26; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 209: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:52.327828000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642552.327828000 seconds
+    [Time delta from previous captured frame: 0.120090000 seconds]
+    [Time delta from previous displayed frame: 0.131048000 seconds]
+    [Time since reference or first frame: 20.628130000 seconds]
+    Frame Number: 209
+    Frame Length: 129 bytes (1032 bits)
+    Capture Length: 129 bytes (1032 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 115
+    Identification: 0xaadf (43743)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7a7a [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 977, Ack: 518, Len: 75
+Modbus/TCP
+    Transaction Identifier: 26
+    Protocol Identifier: 0
+    Length: 69
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 207]
+    [Time from request: 0.131048000 seconds]
+    Byte Count: 66
+    Register 23 (UINT16): 10829
+    Register 24 (UINT16): 499
+    Register 25 (UINT16): 1098
+    Register 26 (UINT16): 0
+    Register 27 (UINT16): 1069
+    Register 28 (UINT16): 3
+    Register 29 (UINT16): 0
+    Register 30 (UINT16): 1073
+    Register 31 (UINT16): 3
+    Register 32 (UINT16): 0
+    Register 33 (UINT16): 1074
+    Register 34 (UINT16): 3
+    Register 35 (UINT16): 0
+    Register 36 (UINT16): 1073
+    Register 37 (UINT16): 3
+    Register 38 (UINT16): 0
+    Register 39 (UINT16): 1076
+    Register 40 (UINT16): 3
+    Register 41 (UINT16): 0
+    Register 42 (UINT16): 1071
+    Register 43 (UINT16): 3
+    Register 44 (UINT16): 0
+    Register 45 (UINT16): 1064
+    Register 46 (UINT16): 3
+    Register 47 (UINT16): 0
+    Register 48 (UINT16): 1071
+    Register 49 (UINT16): 3
+    Register 50 (UINT16): 0
+    Register 51 (UINT16): 1076
+    Register 52 (UINT16): 3
+    Register 53 (UINT16): 0
+    Register 54 (UINT16): 1069
+    Register 55 (UINT16): 3
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    210 20.630787      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    27; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 210: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:52.330485000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642552.330485000 seconds
+    [Time delta from previous captured frame: 0.002657000 seconds]
+    [Time delta from previous displayed frame: 0.002657000 seconds]
+    [Time since reference or first frame: 20.630787000 seconds]
+    Frame Number: 210
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb287 (45703)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 518, Ack: 1052, Len: 12
+Modbus/TCP
+    Transaction Identifier: 27
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 56
+    Word Count: 20
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    212 20.753768      10.0.0.100            10.0.0.200            Modbus/TCP 103    Response: Trans:    27; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 212: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:52.453466000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642552.453466000 seconds
+    [Time delta from previous captured frame: 0.111694000 seconds]
+    [Time delta from previous displayed frame: 0.122981000 seconds]
+    [Time since reference or first frame: 20.753768000 seconds]
+    Frame Number: 212
+    Frame Length: 103 bytes (824 bits)
+    Capture Length: 103 bytes (824 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 89
+    Identification: 0xaae1 (43745)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7a92 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 1052, Ack: 530, Len: 49
+Modbus/TCP
+    Transaction Identifier: 27
+    Protocol Identifier: 0
+    Length: 43
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 210]
+    [Time from request: 0.122981000 seconds]
+    Byte Count: 40
+    Register 56 (UINT16): 0
+    Register 57 (UINT16): 0
+    Register 58 (UINT16): 0
+    Register 59 (UINT16): 0
+    Register 60 (UINT16): 0
+    Register 61 (UINT16): 0
+    Register 62 (UINT16): 0
+    Register 63 (UINT16): 0
+    Register 64 (UINT16): 0
+    Register 65 (UINT16): 0
+    Register 66 (UINT16): 0
+    Register 67 (UINT16): 0
+    Register 68 (UINT16): 0
+    Register 69 (UINT16): 0
+    Register 70 (UINT16): 0
+    Register 71 (UINT16): 0
+    Register 72 (UINT16): 0
+    Register 73 (UINT16): 0
+    Register 74 (UINT16): 0
+    Register 75 (UINT16): 0
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    213 20.756301      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    28; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 213: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:52.455999000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642552.455999000 seconds
+    [Time delta from previous captured frame: 0.002533000 seconds]
+    [Time delta from previous displayed frame: 0.002533000 seconds]
+    [Time since reference or first frame: 20.756301000 seconds]
+    Frame Number: 213
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb288 (45704)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 530, Ack: 1101, Len: 12
+Modbus/TCP
+    Transaction Identifier: 28
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 0
+    Word Count: 13
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    215 20.881298      10.0.0.100            10.0.0.200            Modbus/TCP 89     Response: Trans:    28; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 215: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:52.580996000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642552.580996000 seconds
+    [Time delta from previous captured frame: 0.114287000 seconds]
+    [Time delta from previous displayed frame: 0.124997000 seconds]
+    [Time since reference or first frame: 20.881298000 seconds]
+    Frame Number: 215
+    Frame Length: 89 bytes (712 bits)
+    Capture Length: 89 bytes (712 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 75
+    Identification: 0xaae3 (43747)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7a9e [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 1101, Ack: 542, Len: 35
+Modbus/TCP
+    Transaction Identifier: 28
+    Protocol Identifier: 0
+    Length: 29
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 213]
+    [Time from request: 0.124997000 seconds]
+    Byte Count: 26
+    Register 0 (UINT16): 12601
+    Register 1 (UINT16): 13109
+    Register 2 (UINT16): 12337
+    Register 3 (UINT16): 13877
+    Register 4 (UINT16): 12592
+    Register 5 (UINT16): 12851
+    Register 6 (UINT16): 14132
+    Register 7 (UINT16): 12592
+    Register 8 (UINT16): 12851
+    Register 9 (UINT16): 14132
+    Register 10 (UINT16): 11568
+    Register 11 (UINT16): 13101
+    Register 12 (UINT16): 12336
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    216 20.881583      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    29; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 216: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:52.581281000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642552.581281000 seconds
+    [Time delta from previous captured frame: 0.000285000 seconds]
+    [Time delta from previous displayed frame: 0.000285000 seconds]
+    [Time since reference or first frame: 20.881583000 seconds]
+    Frame Number: 216
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb289 (45705)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 542, Ack: 1136, Len: 12
+Modbus/TCP
+    Transaction Identifier: 29
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 101
+    Word Count: 25
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    218 21.008573      10.0.0.100            10.0.0.200            Modbus/TCP 113    Response: Trans:    29; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 218: 113 bytes on wire (904 bits), 113 bytes captured (904 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:52.708271000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642552.708271000 seconds
+    [Time delta from previous captured frame: 0.115539000 seconds]
+    [Time delta from previous displayed frame: 0.126990000 seconds]
+    [Time since reference or first frame: 21.008573000 seconds]
+    Frame Number: 218
+    Frame Length: 113 bytes (904 bits)
+    Capture Length: 113 bytes (904 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 99
+    Identification: 0xaae5 (43749)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7a84 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 1136, Ack: 554, Len: 59
+Modbus/TCP
+    Transaction Identifier: 29
+    Protocol Identifier: 0
+    Length: 53
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 216]
+    [Time from request: 0.126990000 seconds]
+    Byte Count: 50
+    Register 101 (UINT16): 64136
+    Register 102 (UINT16): 1505
+    Register 103 (UINT16): 44843
+    Register 104 (UINT16): 44843
+    Register 105 (UINT16): 44843
+    Register 106 (UINT16): 44843
+    Register 107 (UINT16): 44843
+    Register 108 (UINT16): 44843
+    Register 109 (UINT16): 44843
+    Register 110 (UINT16): 44843
+    Register 111 (UINT16): 44843
+    Register 112 (UINT16): 44843
+    Register 113 (UINT16): 860
+    Register 114 (UINT16): 1300
+    Register 115 (UINT16): 13060
+    Register 116 (UINT16): 13060
+    Register 117 (UINT16): 13060
+    Register 118 (UINT16): 13060
+    Register 119 (UINT16): 13060
+    Register 120 (UINT16): 13060
+    Register 121 (UINT16): 13060
+    Register 122 (UINT16): 13060
+    Register 123 (UINT16): 13060
+    Register 124 (UINT16): 13060
+    Register 125 (UINT16): 256
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    219 21.008867      10.0.0.200            10.0.0.100            Modbus/TCP 66        Query: Trans:    30; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 219: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:52.708565000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642552.708565000 seconds
+    [Time delta from previous captured frame: 0.000294000 seconds]
+    [Time delta from previous displayed frame: 0.000294000 seconds]
+    [Time since reference or first frame: 21.008867000 seconds]
+    Frame Number: 219
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39), Dst: Lantroni_da:27:10 (00:80:a3:da:27:10)
+    Destination: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.200, Dst: 10.0.0.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xb28a (45706)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.200
+    Destination Address: 10.0.0.100
+Transmission Control Protocol, Src Port: 49853, Dst Port: 502, Seq: 554, Ack: 1195, Len: 12
+Modbus/TCP
+    Transaction Identifier: 30
+    Protocol Identifier: 0
+    Length: 6
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    Reference Number: 125
+    Word Count: 1
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
+
+No.     Time           Source                Destination           Protocol Length Info
+    221 21.135499      10.0.0.100            10.0.0.200            Modbus/TCP 65     Response: Trans:    30; Unit:   1, Func:   3: Read Holding Registers
+
+Frame 221: 65 bytes on wire (520 bits), 65 bytes captured (520 bits) on interface \Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238}, id 0
+    Interface id: 0 (\Device\NPF_{EFB199C7-A164-4748-BBF5-7ACCADB51238})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 16, 2022 17:35:52.835197000 Malay Peninsula Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1660642552.835197000 seconds
+    [Time delta from previous captured frame: 0.115510000 seconds]
+    [Time delta from previous displayed frame: 0.126632000 seconds]
+    [Time since reference or first frame: 21.135499000 seconds]
+    Frame Number: 221
+    Frame Length: 65 bytes (520 bits)
+    Capture Length: 65 bytes (520 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:mbtcp:modbus]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Lantroni_da:27:10 (00:80:a3:da:27:10), Dst: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+    Destination: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        Address: ASUSTekC_8f:dc:39 (04:d4:c4:8f:dc:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        Address: Lantroni_da:27:10 (00:80:a3:da:27:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.100, Dst: 10.0.0.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 51
+    Identification: 0xaae7 (43751)
+    Flags: 0x40, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7ab2 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.100
+    Destination Address: 10.0.0.200
+Transmission Control Protocol, Src Port: 502, Dst Port: 49853, Seq: 1195, Ack: 566, Len: 11
+Modbus/TCP
+    Transaction Identifier: 30
+    Protocol Identifier: 0
+    Length: 5
+    Unit Identifier: 1
+Modbus
+    .000 0011 = Function Code: Read Holding Registers (3)
+    [Request Frame: 219]
+    [Time from request: 0.126632000 seconds]
+    Byte Count: 2
+    Register 125 (UINT16): 1
+[Community ID: 1:PSBG9yJ0UQuB1PGFiuhe+YtZcTA=]
